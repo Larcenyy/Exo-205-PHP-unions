@@ -7,3 +7,8 @@
  * Utilisez UNION ALL pour afficher toutes les données y compris les doublons, affichez le résultat  à l'aide d'une boucle ou d'un print_r.
  * PS: Si vous utilisez un print_r, alors utilisez la balise <pre> pour un résultat plus propre.
  */
+
+
+require "DbPDO.php";
+DbPDO::connect();
+DbPDO::showInfo();
